@@ -1,7 +1,7 @@
 // icons
 import HomeIcon from '@material-ui/icons/Home'
 import DashboardIcon from '@material-ui/icons/BarChartOutlined'
-import SettingsIcon from '@material-ui/icons/SettingsOutlined'
+// import SettingsIcon from '@material-ui/icons/SettingsOutlined'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import PrivateIcon from '@material-ui/icons/LockOutlined'
 import PublicIcon from '@material-ui/icons/LockOpenOutlined'
@@ -13,7 +13,7 @@ import ManageAllRules from '../pages/Admin/ManageAllRules'
 import TSearch from '../pages/Admin/ViolationsQuery/Search'
 import TTotalVioPerRepo from '../pages/Admin/ViolationsQuery/TotalVioPerRepo'
 import TTop10Rules from '../pages/Admin/ViolationsQuery/Top10Rules'
-import Logout from '../pages/Logout'
+// import Logout from '../pages/Logout'
 // import CodeEditor from '../pages/CodeEditor'
 
 // interface
@@ -86,13 +86,13 @@ export const routes: Array<RouteItem> = [
     //     icon: CodeIcon,
     //     appendDivider: true,
     // },
-    {
-        key: 'router-log-out',
-        title: 'Log out',
-        tooltip: 'Log out',
-        path: '/logout',
-        enabled: true,
-        component: Logout,
-        icon: SettingsIcon,
-    },
+    // {
+    //     key: 'router-log-out',
+    //     title: 'Log out',
+    //     tooltip: 'Log out',
+    //     path: '/logout',
+    //     enabled: true,
+    //     component: Logout,
+    //     icon: SettingsIcon,
+    // },
 ]
